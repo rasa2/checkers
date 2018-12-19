@@ -1,6 +1,6 @@
 # Сheckers:
 This is a game "Сheckers" which is operated using Python3 tkinter module.<br>
-To launch this game you can use pontoon 3.6 with the installed tinker module.<br>
+To launch this game you can use python 3.6 with the installed tkinter module.<br>
 Available languages:Russian
 # Rules:
 Board size:8x8<br>
