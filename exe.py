@@ -724,7 +724,7 @@ def clear_square():
     change_square([[None, None, None, None, None, None, None, None], [None, None, None, None, None, None, None, None], [None, None, None, None, None, None, None, None], [None, None, None, None, None, None, None, None], [None, None, None, None, None, None, None, None], [None, None, None, None, None, None, None, None], [None, None, None, None, None, None, None, None], [None, None, None, None, None, None, None, None]])
     render()
 global op
-op=[1,5,5,0,0,400]
+op=[0,5,5,0,0,400]
 def apply_options():
     global op
     op=local_op[:]
@@ -796,9 +796,9 @@ def options():
     anim.grid(row=1,column=0,sticky="w",columnspan=2)
     l1=Label(opt,text="Белые:")
     l2=Label(opt,text="Чёрные:")
-    rb1=Radiobutton(opt,text='Сильный ИИ',variable=group2,value=1,command=rd1_command)
+    rb1=Radiobutton(opt,text='Сложный ИИ',variable=group2,value=1,command=rd1_command)
     rb2=Radiobutton(opt,text='Средний ИИ',variable=group2,value=2,command=rd2_command)
-    rb3=Radiobutton(opt,text='Слабый ИИ',variable=group2,value=3,command=rd3_command)
+    rb3=Radiobutton(opt,text='Простой ИИ',variable=group2,value=3,command=rd3_command)
     rb4=Radiobutton(opt,text='Рандом',variable=group2,value=4,command=rd4_command)
     rb5=Radiobutton(opt,text='Игрок',variable=group2,value=5,command=rd5_command)
     rb6=Radiobutton(opt,text='Сильный ИИ',variable=group1,value=1,command=rd6_command)
