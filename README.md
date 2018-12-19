@@ -19,3 +19,8 @@ Also in the settings menu, you can choose which AI or players will play for whit
 "Применить настройки" - Applies all selected settings.
 # Algorithm:
 This game uses minmax algorithm to bruteforce all avalible steps for AI.
+# In next version:
+A graphic message about the victory.<br>
+Stronger AI.<br>
+More settings.<br>
+And many other things.
