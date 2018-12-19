@@ -10,7 +10,7 @@ Any sequence may be chosen, as long as all possible captures are made.
 # Gameplay:
 The moves are carried out on the left mouse button.<br>
 The menu is called up when you click on the right mouse button anywhere in the field.<br>
-In the menu you can turn on the map editing mode (Sandbox), saves (Сохранение),and test version of the animation (Анимация (тестовая версия)).<br>
+In the menu you can turn on the map editing mode (Sandbox), saves (Сохранение), and test version of the animation (Анимация (тестовая версия)).<br>
 Also in the settings menu, you can choose which AI or players will play for white and black checkers.<br>
 "Сложный ИИ" - Thinking over 4 moves ahead.<br>
 "Средний ИИ" - Thinking over 2 moves ahead.<br>
